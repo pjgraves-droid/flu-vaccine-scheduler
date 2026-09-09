@@ -98,7 +98,7 @@ export function BookingWizard() {
 
       <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_320px]">
         {/* Main panel */}
-        <div className="animate-fade-up" key={step}>
+        <div className="animate-fade-up min-w-0" key={step}>
           {step === 0 && (
             <>
               <h1 className="text-3xl font-semibold tracking-tight text-slate-900">Choose a clinic</h1>
